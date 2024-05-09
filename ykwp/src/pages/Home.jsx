@@ -2,7 +2,7 @@ import Navbar from '../designs/Navbar.jsx'
 
 const Home = () => {
   return (
-    <div className='mx-[180px]'>
+    <div className='mx-[20px] sm:mx-[180px]'>
       <Navbar />
       <h1>Home</h1>
     </div>
