@@ -1,5 +1,7 @@
-import i1 from '../assets/i1.jpg'
+import bLogo from '../assets/bLogo.png'
+import angle from '../assets/angle.svg'
 
 export {
-    i1,
+    bLogo,
+    angle,
 }

@@ -1,8 +1,11 @@
-import React from 'react'
+import Navbar from '../designs/Navbar.jsx'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='mx-[180px]'>
+      <Navbar />
+      <h1>Home</h1>
+    </div>
   )
 }
 

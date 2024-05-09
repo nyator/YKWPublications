@@ -19,19 +19,19 @@ const router = createBrowserRouter([
     errorElement: <NotFound />,
   },
   {
-    path: "/",
+    path: "/publications",
     element: <Publications />,
   },
   {
-    path: "/",
+    path: "/about",
     element: <AboutUs />,
   },
   {
-    path: "/",
+    path: "/gallery",
     element: <Gallery />,
   },
   {
-    path: "/",
+    path: "/team",
     element: <Team />,
   },
 ]);
