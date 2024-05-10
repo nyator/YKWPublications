@@ -15,6 +15,7 @@ import NotFound from "./pages/NotFound.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
+    
     element: <Home />,
     errorElement: <NotFound />,
   },

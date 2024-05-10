@@ -1,9 +1,13 @@
-import React from 'react'
+import Navbar from "../designs/Navbar";
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
-  )
-}
+    <div className="mx-[20px] sm:mx-[80px] md:mx-[180px]">
+      <Navbar />
 
-export default AboutUs
+      <div>AboutUs</div>
+    </div>
+  );
+};
+
+export default AboutUs;

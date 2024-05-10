@@ -3,3 +3,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#submenu{
+    visibilty: invisibile;
+}
+
+li:hover ul#submenu{
+    visibilty: visibile;
+}
