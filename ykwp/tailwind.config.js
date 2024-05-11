@@ -17,6 +17,7 @@ export default {
       colors: {
         mgreen: "#089170",
         mpurple: "#583FBA",
+        mash: "#565656",
         1: "#F8F8F8",
         2: "#EBEBEB",
         3: "#000000",
@@ -27,6 +28,7 @@ export default {
       sm: "768px",
       md: "1060px",
       lg: "1200px",
+      ll: "1468px",
       xl: "1700px",
       
     },
