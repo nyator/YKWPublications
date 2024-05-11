@@ -11,12 +11,15 @@ export default {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        krona: ["Krona One", "sans-serif"],
+        Kumbh: ["Kumbh Sans", "sans-serif"],
       },
       colors: {
         mgreen: "#089170",
         mpurple: "#583FBA",
         1: "#F8F8F8",
         2: "#EBEBEB",
+        3: "#000000",
       },
        screens: {
       xs: "480px",

@@ -1,4 +1,4 @@
-import { bLogo } from "../constants/images.js";
+import { wLogo } from "../constants/images.js";
 import { styles } from "../constants/styles.js";
 import CustomButton from "../components/CustomButton.jsx";
 
@@ -7,7 +7,7 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-const Navbar = () => {
+const DarkNavbar = () => {
   const [openNavigation, setOpenNavigation] = useState(false);
 
   const toggleNav = () => {
@@ -23,7 +23,7 @@ const Navbar = () => {
           <div>
             <Link to="/">
               <img
-                src={bLogo}
+                src={wLogo}
                 alt="Your Kingdom Word Publications"
                 className="object-cover"
               />
@@ -32,14 +32,14 @@ const Navbar = () => {
           <div className="flex flex-row items-center justify-between">
             <ul className="flex">
               <li>
-                <Link to="/publications" className={`${styles.navLink}`}>
+                <Link to="/publications" className={`${styles.darknavLink}`}>
                   Publications
                 </Link>
               </li>
 
               <li>
                 {" "}
-                <Link to="/gallery" className={`${styles.navLink}`}>
+                <Link to="/gallery" className={`${styles.darknavLink}`}>
                   Gallery
                 </Link>
               </li>
@@ -48,7 +48,7 @@ const Navbar = () => {
                 <div className="relative">
                   <button
                     onClick={toggleNav}
-                    className={`${styles.dropnavLink} flex items-center `}
+                    className={`${styles.darkdropnavLink} flex items-center `}
                   >
                     About
                     <ChevronDown
@@ -61,16 +61,16 @@ const Navbar = () => {
                   </button>
 
                   {openNavigation && (
-                    <div className=" flex absolute h-[70px] top-8 right-5 text-center items-center justify-center px-4 bg-1 space-x-3 rounded-lg shadow-sm transition-all ease-in-out duration-500">
+                    <div className=" flex absolute h-[70px] top-8 right-5 text-center items-center justify-center px-4 bg-slate-600  space-x-3 rounded-lg shadow-sm transition-all ease-in-out duration-500">
                       <Link
                         to="/about"
-                        className={`${styles.navLink} hover:bg-2 border-2 border-[0.1px] p-2 rounded-lg font-normal`}
+                        className={`${styles.darknavLink} hover:bg-2 border-2 border-[0.1px] p-2 rounded-lg font-normal`}
                       >
                         About Us
                       </Link>
                       <Link
                         to="/team"
-                        className={`${styles.navLink} hover:bg-2  border-2 border-[0.1px] p-2 rounded-lg font-normal `}
+                        className={`${styles.darknavLink} hover:bg-2  border-2 border-[0.1px] p-2 rounded-lg font-normal `}
                       >
                         Our Team
                       </Link>
@@ -94,7 +94,7 @@ const Navbar = () => {
           <div>
             <Link to="/">
               <img
-                src={bLogo}
+                src={wLogo}
                 alt="Your Kingdom Word Publications"
                 className="object-fill"
               />
@@ -104,9 +104,9 @@ const Navbar = () => {
           <div>
             <button onClick={toggleNav} className="relative">
               {openNavigation ? (
-                <X size={36} strokeWidth={2} />
+                <X size={36} strokeWidth={2} color="white" />
               ) : (
-                <Menu size={36} strokeWidth={2} />
+                <Menu size={36} strokeWidth={2} color="white" />
               )}
             </button>
 
@@ -145,4 +145,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default DarkNavbar;
