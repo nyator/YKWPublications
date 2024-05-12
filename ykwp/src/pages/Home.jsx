@@ -48,7 +48,7 @@ const Home = () => {
               <span className="text-3">On The</span> Selves
             </h1>
           </div>
-          <div className="flex gap-5">
+          <div className="flex items-center justify-center gap-5">
             <div className="bg-2 rounded-lg w-fit">
               <img src={book} alt="#" className="object-contain" />
             </div>
@@ -71,8 +71,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-
+      
       <SectionBox  button="hidden" />
+      <SectionBox  button="hidden" reverse="ll:flex-row-reverse"/>
 
     </>
   );

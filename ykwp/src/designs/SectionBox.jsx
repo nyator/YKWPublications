@@ -5,7 +5,7 @@ import { styles } from "../constants/styles";
 const SectionBox = (props) => {
   return (
     <section className="w-full px-[40px] md:px-[180px] lg:px-[220px] py-[30px] ll:py-[80px]">
-      <div className="flex flex-col ll:flex-row items-center justify-center space-y-10 ll:space-y-0 ll:space-x-[130px]">
+      <div className={`${props.reverse} flex flex-col ll:flex-row items-center justify-evenly space-y-10 ll:space-y-0 gap-[10px]`}>
         
         <img
           src={img2}
