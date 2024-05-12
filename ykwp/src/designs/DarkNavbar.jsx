@@ -16,7 +16,7 @@ const DarkNavbar = () => {
 
   return (
     <>
-      <nav className="w-full items-center py-3 mt-12">
+      <nav className="w-full items-center px-[40px] md:px-[100px] lg:px-[220px]  py-[50px] bg-3">
         {/* desktop Navigation */}
 
         <div className="hidden sm:flex flex-1 justify-between items-center">

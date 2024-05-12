@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="w-full items-center px-[40px] md:px-[180px] lg:px-[220px]  py-[50px]">
+      <nav className="w-full items-center px-[40px] md:px-[100px] lg:px-[220px]  py-[50px]">
         {/* desktop Navigation */}
 
         <div className="hidden sm:flex flex-1 justify-between items-center">

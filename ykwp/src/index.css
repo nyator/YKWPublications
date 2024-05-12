@@ -6,8 +6,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.tb{
+* {
+    scroll-behavior: smooth;
+  }
 
+.tb{
     background: rgb(0,0,0);
 background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(10,0,51,1) 100%);
 }
