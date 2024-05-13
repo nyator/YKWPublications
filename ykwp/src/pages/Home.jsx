@@ -12,7 +12,7 @@ const Home = () => {
       <Navbar />
 
       <section className="flex flex-col-reverse ll:flex-row items-center justify-between w-full px-[40px] md:px-[180px] lg:px-[220px] py-[20px] ">
-        <div className="w-fit text-center ll:text-start space-y-6">
+        <div className="w-fit flex flex-col items-center ll:items-start justify-center  space-y-6">
           <p className={`${styles.smTitle} hidden ll:flex`}>WELCOME TO YKWP:</p>
           <h1
             className={`${styles.xlTitle} text-mpurple text-center ll:text-start`}
@@ -21,7 +21,7 @@ const Home = () => {
             <br />
             Bookshop.
           </h1>
-          <p className={`${styles.paragraph} max-w-[700px]`}>
+          <p className={`${styles.paragraph} max-w-[700px] text-center ll:text-start`}>
             Your one-stop destination for all things books! We take pride in
             providing a platform for authors and readers to connect, explore,
             and celebrate literature in all its forms.
@@ -29,7 +29,8 @@ const Home = () => {
           <CustomButton
             title="Get in touch"
             to="#"
-            style="bg-mpurple text-white text-nowrap mt-7"
+            style="bg-mpurple text-white text-nowrap"
+            button="hidden"
           />
         </div>
         <img

@@ -13,7 +13,7 @@ const Bookshop = () => {
           </h1>
         </div>
     
-          <div className="flex flex-wrap items-center justify-center p-5 w-1/2 gap-4">
+          <div className="flex flex-wrap items-center justify-center p-5 w-1/2 gap-5">
             {shops.map((shop) => (
               <p
                 className={`${styles.paragraph} bg-2 text-center px-6 py-3 rounded-[10px]`}
@@ -22,7 +22,7 @@ const Bookshop = () => {
               </p>
             ))}
           </div>
-          <p className={`${styles.smTitle}`}>WANT TO PURCHASE A BOOK?</p>
+          <p className={`${styles.smTitle}`}>OR CALL</p>
           <CustomButton
             title="Get in touch"
             to="#"

@@ -84,6 +84,7 @@ const Navbar = () => {
               title="Get in touch"
               to="#"
               style="bg-mgreen text-white text-nowrap"
+              button="hidden"
             />
           </div>
         </div>
