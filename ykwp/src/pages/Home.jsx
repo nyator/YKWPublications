@@ -4,6 +4,7 @@ import { styles } from "../constants/styles.js";
 import { img, book } from "../constants/images.js";
 import CustomButton from "../components/CustomButton.jsx";
 import { CircleChevronLeft, CircleChevronRight } from "lucide-react";
+import Bookshop from "../designs/Bookshop.jsx";
 
 const Home = () => {
   return (
@@ -74,6 +75,8 @@ const Home = () => {
       
       <SectionBox  button="hidden" />
       <SectionBox  button="hidden" reverse="ll:flex-row-reverse"/>
+
+      <Bookshop />
 
     </>
   );
