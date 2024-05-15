@@ -18,6 +18,7 @@ export default {
         mgreen: "#089170",
         mpurple: "#583FBA",
         mash: "#565656",
+        gr: "#868686",
         1: "#F8F8F8",
         2: "#EBEBEB",
         3: "#000000",

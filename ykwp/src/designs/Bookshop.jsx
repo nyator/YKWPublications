@@ -6,7 +6,7 @@ const Bookshop = () => {
   return (
     <section className="w-full bg-1 px-[40px] md:px-[180px] lg:px-[220px] py-[30px] ll:py-[80px]">
       <div className="flex flex-col items-center justify-start space-y-2">
-        <div className="text-center space-y-4">
+        <div className="text-center space-y-2">
           <p className={`${styles.smTitle}`}>WANT TO PURCHASE A BOOK?</p>
           <h1 className={`${styles.contentTitle} text-3 text-center`}>
             Bookshops
@@ -16,7 +16,7 @@ const Bookshop = () => {
           <div className="flex flex-wrap items-center justify-center p-5 w-1/2 gap-5">
             {shops.map((shop) => (
               <p
-                className={`${styles.paragraph} bg-2 text-center px-6 py-3 rounded-[10px]`}
+                className={`${styles.paragraph} text-nowrap bg-2 text-center px-6 py-3 rounded-[10px]`}
               >
                 {shop}
               </p>
@@ -24,9 +24,9 @@ const Bookshop = () => {
           </div>
           <p className={`${styles.smTitle}`}>OR CALL</p>
           <CustomButton
-            title="Get in touch"
+            title="030 000 0000"
             to="#"
-            style="bg-mpurple text-white text-nowrap mt-7"
+            style="bg-mpurple text-white text-nowrap"
           />
 
         </div>

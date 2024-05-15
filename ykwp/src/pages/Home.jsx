@@ -1,10 +1,12 @@
 import Navbar from "../designs/Navbar.jsx";
 import SectionBox from "../designs/SectionBox.jsx"
-import { styles } from "../constants/styles.js";
-import { img, book } from "../constants/images.js";
 import CustomButton from "../components/CustomButton.jsx";
-import { CircleChevronLeft, CircleChevronRight } from "lucide-react";
 import Bookshop from "../designs/Bookshop.jsx";
+import Footer from "../designs/Footer.jsx";
+import { styles } from "../constants/styles.js";
+
+import { img, book } from "../constants/images.js";
+import { CircleChevronLeft, CircleChevronRight } from "lucide-react";
 
 const Home = () => {
   return (
@@ -44,7 +46,7 @@ const Home = () => {
 
       <section className="w-full bg-1 px-[40px] md:px-[180px] lg:px-[220px] py-[30px] ll:py-[80px]">
         <div className="flex flex-col justify-start space-y-5">
-          <div className="text-center space-y-4">
+          <div className="text-center space-y-2">
             <p className={`${styles.smTitle}`}>AUTHOR’S PUBLICATIONS</p>
             <h1 className={`${styles.contentTitle} text-mpurple text-center`}>
               <span className="text-3">On The</span> Selves
@@ -78,6 +80,7 @@ const Home = () => {
       <SectionBox  button="hidden" reverse="ll:flex-row-reverse"/>
 
       <Bookshop />
+      <Footer />
 
     </>
   );

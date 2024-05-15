@@ -4,6 +4,7 @@ export const styles = {
     contentTitle:"font-krona text-[23px] sm:text-[48px] leading-none",
     smTitle:"font-Kumbh font-medium text-[13px] md:text-[16px]",
     paragraph: "font-Kumbh font-normal text-[17px] sm:text-[19px] text-mash",
+    para: "font-Kumbh font-normal text-[17px] sm:text-[19px] text-gr",
 
     navLink: " font-poppins font-normal px-6 text-[16px] hover:text-[#583FBA] text-nowrap",
     darknavLink: " font-poppins font-normal px-6 text-[16px] text-[#FFFFFF] hover:text-[#583FBA] text-nowrap",
