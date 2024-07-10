@@ -17,6 +17,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="w-full items-center px-[40px] md:px-[100px] lg:px-[220px]  py-[50px]">
+
         {/* desktop Navigation */}
 
         <div className="hidden sm:flex flex-1 justify-between items-center">
@@ -61,7 +62,7 @@ const Navbar = () => {
                   </button>
 
                   {openNavigation && (
-                    <div className=" flex absolute h-[70px] top-8 right-5 text-center items-center justify-center px-4 bg-1 space-x-3 rounded-lg shadow-sm transition-all ease-in-out duration-500">
+                    <div className={`flex absolute h-[70px] top-8 right-5 text-center items-center justify-center px-4 bg-1 space-x-3 rounded-lg shadow-sm ${openNavigation ? " " : ""}`}>
                       <Link
                         to="/about"
                         className={`${styles.navLink} hover:bg-2 border-2 border-[0.1px] p-2 rounded-lg font-normal`}
